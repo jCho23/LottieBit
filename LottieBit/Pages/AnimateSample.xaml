@@ -2,9 +2,19 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="LottieBit.Pages.AnimateSample">
+    x:Class="LottieBit.Pages.AnimateSample"
 
+    xmlns:local="clr-namespace:LottieBit" 
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
 
+     <StackLayout 
+        VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <forms:AnimationView 
+                x:Name="AnimationView" 
+                Animation="video_cam.json" 
+                AutoPlay="True" Loop="true"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand" />
+      </StackLayout>
 
-    
 </ContentPage>
