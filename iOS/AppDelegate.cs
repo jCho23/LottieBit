@@ -5,6 +5,8 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+using Lottie.Forms.iOS.Renderers;
+
 namespace LottieBit.iOS
 {
     [Register("AppDelegate")]
@@ -15,6 +17,8 @@ namespace LottieBit.iOS
             global::Xamarin.Forms.Forms.Init();
 
             LoadApplication(new App());
+
+            AnimationViewRenderer.Init();
 
             return base.FinishedLaunching(app, options);
         }
