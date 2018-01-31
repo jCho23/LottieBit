@@ -130,8 +130,6 @@
     <Compile Include="AppDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="BeLive_FIreworks.json" />
-    <BundleResource Include="heartbutton.json" />
     <BundleResource Include="mix.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
