@@ -8,7 +8,7 @@ namespace LottieBit
         {
             InitializeComponent();
 
-            MainPage = new LottieBitPage();
+            MainPage = new Pages.AnimateSample();
         }
 
         protected override void OnStart()
