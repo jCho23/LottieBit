@@ -1,5 +1,5 @@
 # LottieBit
-Sample Xamarin.Forms app using Lottie Animation
+Sample *loading animation* with Xamarin.Forms and Lottie
 
 # Authors
 **June Cho** 
