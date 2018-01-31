@@ -7,11 +7,12 @@
     xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
 
      <StackLayout 
-        VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        VerticalOptions="FillAndExpand" 
+        HorizontalOptions="FillAndExpand" >
             <forms:AnimationView 
-                x:Name="AnimationView" 
+                Loop="true"
+                AutoPlay="True" 
                 Animation="mix.json" 
-                AutoPlay="True" Loop="true"
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand" />
       </StackLayout>
