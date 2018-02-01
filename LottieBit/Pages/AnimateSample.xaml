@@ -4,15 +4,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="LottieBit.Pages.AnimateSample"
     xmlns:local="clr-namespace:LottieBit" 
-    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
-    BackgroundColor="Black"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    BackgroundColor="white" >
 
      <StackLayout 
         VerticalOptions="FillAndExpand" 
         HorizontalOptions="FillAndExpand" >
             
             <forms:AnimationView
-                x:Name=" burger"
+                x:Name="burger"
                 Loop="true"
                 AutoPlay="True" 
                 Animation="burger.json" 
