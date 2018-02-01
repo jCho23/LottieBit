@@ -3,14 +3,20 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="LottieBit.Pages.AnimateSample"
-    BackgroundColor="Black"
     xmlns:local="clr-namespace:LottieBit" 
     xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
+    BackgroundColor="Black"
 
      <StackLayout 
         VerticalOptions="FillAndExpand" 
         HorizontalOptions="FillAndExpand" >
-            <forms:AnimationView 
+
+        <ActivityIndicator 
+            BindingContext="{x:Reference loading}"
+            IsRunning="{Binding IsLoading}" />
+            
+            <forms:AnimationView
+                x:Name="loading"
                 Loop="true"
                 AutoPlay="True" 
                 Animation="loading.json" 
