@@ -10,10 +10,6 @@
      <StackLayout 
         VerticalOptions="FillAndExpand" 
         HorizontalOptions="FillAndExpand" >
-
-        <ActivityIndicator 
-            BindingContext="{x:Reference loading}"
-            IsRunning="{Binding IsLoading}" />
             
             <forms:AnimationView
                 x:Name=" burger"
