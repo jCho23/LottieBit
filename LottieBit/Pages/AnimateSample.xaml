@@ -16,10 +16,10 @@
             IsRunning="{Binding IsLoading}" />
             
             <forms:AnimationView
-                x:Name="loading"
+                x:Name=" burger"
                 Loop="true"
                 AutoPlay="True" 
-                Animation="loading.json" 
+                Animation="burger.json" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand" />
       </StackLayout>
