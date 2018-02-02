@@ -1,5 +1,6 @@
 # LottieBit
 Sample *loading animation* with Xamarin.Forms and Lottie
+![Header](https://lottiebit.blob.core.windows.net/lottiebitgif/lottie.gif)
 
 # Authors
 **June Cho** 
