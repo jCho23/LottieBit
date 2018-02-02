@@ -3,17 +3,18 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="LottieBit.Pages.AnimateSample"
-    BackgroundColor="Black"
     xmlns:local="clr-namespace:LottieBit" 
-    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" >
 
      <StackLayout 
         VerticalOptions="FillAndExpand" 
         HorizontalOptions="FillAndExpand" >
-            <forms:AnimationView 
+            
+            <forms:AnimationView
+                x:Name="mailsent"
                 Loop="true"
                 AutoPlay="True" 
-                Animation="loading.json" 
+                Animation="mailsent.json" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand" />
       </StackLayout>
