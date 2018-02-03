@@ -1,5 +1,6 @@
 # LottieBit
 Sample *mail sent animation* with Xamarin.Forms and [Lottie AirBnb Design](https://airbnb.design/lottie/)
+<br>
 ![Header](https://lottiebit.blob.core.windows.net/lottiebitgif/lottie.gif)
 
 # Authors
